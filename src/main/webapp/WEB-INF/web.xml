@@ -1,0 +1,22 @@
+<web-app>
+    <servlet>
+        <servlet-name>RegistrationServlet</servlet-name>
+        <servlet-class>kz.iitu.javaee.RegistrationServlet</servlet-class>
+        <jsp-file>/register.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistrationServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>kz.iitu.javaee.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/main</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
